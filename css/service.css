@@ -1,0 +1,823 @@
+body {
+    margin: auto;
+    padding: 0px;
+  }
+  
+  * {
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin: auto;
+    padding: 0;
+  }
+  /*==========csss for top header=========*/
+  /*==========csss for top header=========*/
+  .header-top {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 5px 0px;
+    position: absolute;
+    border-bottom: 2px solid rgb(39, 12, 12);
+  }
+  .top {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    float: left;
+  }
+  
+  .contact_detials {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    float: left;
+  }
+  .contact_detials ul {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .contact_detials ul li {
+    display: inline-block;
+  }
+  .contact_detials ul li a {
+    display: inline-block;
+  
+    color: white;
+  }
+  
+  .contact_detials ul li i {
+    color: white;
+    padding: 0 5px;
+  }
+  .social_details {
+    width: 50%;
+    display: flex;
+    float: left;
+  }
+  .social {
+    margin-left: 28rem;
+  }
+  
+  .social_details .social i {
+    font-size: 20px;
+    margin: 14px 30px 0px 11px;
+    color: white;
+  }
+  /*==========csss for main header=========*/
+  /*==========csss for main header=========*/
+  
+  .main_header {
+    width: 100%;
+    display: block;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    padding-top: 65px;
+  }
+  
+  .header {
+    width: 100%;
+    display: block;
+    float: left;
+    height: 99px;
+  }
+  
+  .logo {
+    width: 50%;
+    float: left;
+    display: block;
+    padding-top: 5px;
+  }
+  
+  .logo img {
+    width: 18%;
+    margin-left: 65px;
+    background-color: aliceblue;
+    border-radius: 5px;
+  }
+  
+  .logo h3 {
+    margin: -59px 0px 10px 232px;
+    font-size: 29px;
+    color: white;
+  }
+  
+  .list_main_header {
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  
+  .list_main_header ul li {
+    display: inline-block;
+    padding: 20px 25px;
+    font-size: 20px;
+  }
+  
+  .list_main_header ul li a {
+    color: white;
+  }
+  /*==========csss for banner=========*/
+  /*==========csss for banner=========*/
+  
+  .banner {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .main-banner {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .banner-img img {
+    width: 100%;
+    height: 650px;
+    margin-top: 0px;
+  }
+  
+  /*css for aotoslide*/
+  
+  .slideshow-container {
+    max-width: 1000px;
+    position: absolute;
+    margin: auto;
+    float: left;
+    padding-left: 40px;
+    padding-top: 24px;
+  }
+  
+  .text-area {
+    width: 100%;
+    display: block;
+    float: left;
+    color: white;
+    margin: 13rem 19rem;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .text-area h2 {
+    width: 100%;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+  }
+  
+  .text-area ul li{
+    display: inline;
+    margin: 0 10px;
+  }
+  .text-area ul li a{
+    color: white;
+  }
+  
+  /*==========csss for boxes area=========*/
+  /*==========csss for boxes area=========*/
+  
+  .boxes {
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: aliceblue;
+  }
+  .container-box {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    padding: 0;
+  }
+  
+  .boxes_area {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .box-col {
+    background-color: white;
+    width: 33%;
+    display: block;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+    height: 200px;
+    border-radius: 5px;
+    max-width: 1170px;
+    position: relative;
+    box-shadow: 3px 0px 9px 5px gray;
+    margin: -6rem 0;
+  }
+  .box-col h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #6a6a6a;
+  }
+  
+  .box-col p {
+    font-size: 18px;
+    margin: 18px 11px 36px 0px;
+    text-align: center;
+    color: #6a6a6a;
+  }
+  
+  .box-col a {
+    font-size: 18px;
+    text-align: center;
+    color: yellowgreen;
+  }
+  
+  .blank {
+    background-color: aliceblue;
+    width: 100%;
+    height: 250px;
+  }
+  
+  /*==========csss for about area section=========*/
+  /*==========csss for about area section=========*/
+  
+  .abouts-area {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 5rem;
+  }
+  
+  .about {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .about-col {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  
+  .about-col h3 {
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: darkgray;
+  }
+  .about-col p {
+    font-size: 20px;
+    margin-top: -15px;
+    color: darkgray;
+  }
+  .about-img-area {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .about-img {
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  
+  .about-img img {
+    width: 60%;
+    margin: 5rem 16rem;
+  }
+  .about-details {
+    width: 50%;
+    display: block;
+    float: left;
+    margin: 3rem 0rem;
+  }
+  
+  .about-details h3 {
+    font-size: 30px;
+    margin-bottom: -16px;
+    letter-spacing: 1.5px;
+    color: darkgray;
+  }
+  
+  .about-details h3 span {
+    color: blue;
+    letter-spacing: 1.5px;
+  }
+  
+  .about-details p {
+    font-size: 17px;
+    margin-bottom: -13px;
+    letter-spacing: 1.5px;
+    color: darkgray;
+    width: 79%;
+    margin-top: 37px;
+  }
+  
+  .about-details ul {
+    padding-top: 10px;
+  }
+  .about-details ul li {
+    margin: 16px 1px 6px -38px;
+  }
+  
+  .about-details ul li i {
+    color: rgb(80, 80, 214);
+  }
+  /*==========csss for save money area=========*/
+  /*==========csss for save money area=========*/
+  
+  .save_money-area {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .money_area {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .money {
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  
+  .money img {
+    width: 100%;
+  }
+  
+  .div-money-text {
+    width: 50%;
+    display: block;
+    float: left;
+    background-color: #78aa2c;
+    height: 574px;
+  }
+  
+  .div-money-text h4 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+    padding-top: 28px;
+  }
+  .div-money-text p {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+  }
+  .div-money-text ul {
+    width: 80%;
+  }
+  
+  .div-money-text ul li {
+    padding: 20px 10px;
+    border-bottom: 10px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-left: -19px;
+  }
+  
+  /*==========csss for service area section=========*/
+  /*==========csss for service area section=========*/
+  
+  .our_service {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 40px;
+  }
+  
+  .our-service-area {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .our-srcs {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  .our-srcs h4 {
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: darkgray;
+  }
+  
+  .our-srcs p {
+    font-size: 20px;
+    color: darkgray;
+    margin-top: -20px;
+  }
+  
+  .row-second {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .container-second {
+    width: 100%;
+    max-width: 1170px;
+    display: block;
+    float: left;
+    margin-left: 18rem;
+  }
+  
+  .six-srcs {
+    width: 28%;
+    display: block;
+    float: left;
+    margin: 10px 10px;
+    box-shadow: 2px 2px 11px 4px rgb(83, 83, 83);
+    padding-bottom: 50px;
+    background-color: #fafafa;
+  }
+  
+  .six-srcs h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #6a6a6a;
+  }
+  
+  .six-srcs p {
+    text-align: center;
+    color: #6a6a6a;
+  }
+  .six-srcs a {
+    margin-left: 7rem;
+    color: #6a6a6a;
+    font-weight: bold;
+  }
+  
+  .six-srcs i {
+    font-size: 34px;
+    margin-left: 9rem;
+    padding-top: 20px;
+    color: yellowgreen;
+  }
+  /*
+    ===========css for======
+    <!--+========images gallery area start==========-->
+    <!--+========images gallery area start==========-->
+    */
+  .images_gallery-sec {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 60px;
+  }
+  
+  .images-gallery-area {
+    widows: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .gallery {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 27rem;
+  }
+  
+  .gallery h3 {
+    font-size: 35px;
+    color: darkgrey;
+  }
+  .gallery p {
+    font-size: 20px;
+    color: #6a6a6a;
+    margin-bottom: 10px;
+    margin-top: -15px;
+  }
+  .div_for_buttons {
+    width: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+  }
+  
+  .div_for_buttons ul {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .div_for_buttons ul li {
+    display: inline-block;
+    margin: 10px 10px;
+  
+    box-shadow: -3px -3px rgb(153 145 145);
+    padding: 5px 19px;
+    font-size: 18px;
+    border: 1px solid #9aca40;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .div_for_buttons ul li a {
+    color: #bcf454;
+  }
+  li:hover {
+    background-color: #78aa2c;
+  }
+  
+  .div_for_imges {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .div_for_imges img {
+    width: 15%;
+    margin: 0 10px;
+  }
+  
+  .blog {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 70px;
+  }
+  
+  .blog-sec {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .blog-area {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  .blog-area h3 {
+    font-size: 35px;
+    color: darkgrey;
+  }
+  
+  .blog-area p {
+    font-size: 20px;
+    color: darkgrey;
+    margin-bottom: 10px;
+    margin-top: -15px;
+  }
+  .div-for-text-imgs {
+    width: 89%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 10rem;
+  }
+  
+  .div_for_blog_cmt {
+    width: 40%;
+    display: block;
+    float: left;
+    margin: 17px 30px;
+    box-shadow: -7px 5px 15px 4px rgb(83, 83, 83);
+  }
+  .div_for_blog_cmt img {
+    width: 35%;
+    margin-left: -5rem;
+  }
+  
+  .div_for_text {
+    width: 50%;
+    display: block;
+    float: right;
+    text-align: justify;
+    margin-top: -10px;
+  }
+  
+  .div_for_text h4 {
+    margin-left: -64px;
+    color: darkcyan;
+  }
+  .div_for_text p {
+    margin-left: -64px;
+  }
+  
+  .div_for_text a {
+    margin-left: -64px;
+  }
+  .div_for_icon {
+    margin-left: -61px;
+    margin-top: -20px;
+    margin-bottom: -15px;
+  }
+  .div_for_icon i {
+    margin: 0 5px;
+    font-size: 10px;
+    color: #6a6a6a;
+  }
+  .div_for_icon span {
+    font-size: 15px;
+    color: #6a6a6a;
+  }
+  
+  .for_addres {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .adres {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 20px;
+  }
+  .adres iframe {
+    width: 100%;
+  }
+  
+  /*footer*/
+  .top_footer {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 20px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+  }
+  
+  .footer_area {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .footer-sec {
+    width: 19%;
+    display: block;
+    float: left;
+    margin-left: 5rem;
+  }
+  .footer-sec h4 {
+    margin-left: 3rem;
+    font-size: 20px;
+  }
+  .footer-sec p {
+    margin-left: 3rem;
+    font-size: 18px;
+  }
+  
+  .footer-sec ul {
+    width: 100%;
+    display: inline-block;
+    text-align: justify;
+    margin: 10px 0px;
+  }
+  
+  .footer-sec ul li {
+    margin: 35px 6px;
+  }
+  .footer-sec ul li a {
+    margin: 10px 6px;
+  }
+  
+  .footer-sec1 {
+    width: 19%;
+    display: block;
+    float: left;
+    margin-left: 5rem;
+  }
+  
+  .footer-sec1 ul {
+    width: 100%;
+    display: inline-block;
+    text-align: justify;
+    margin: 10px 0px;
+  }
+  
+  .footer-sec1 ul li {
+    margin: 26px 6px;
+  }
+  .footer-sec1 ul li a {
+    margin: 10px 6px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .list li {
+    display: inline-block;
+  
+    margin: 14px 5px;
+    border: 1px solid;
+    padding: 4px 10px 4px 10px;
+  }
+  
+  .footer-sec3 {
+    padding-top: 23px;
+  }
+  
+  .footer-sec3 h4 {
+    font-size: 20px;
+  }
+  
+
+  
+.contact_form {
+  width: 100%;
+  display: block;
+  float: left;
+  padding-top: 85px;
+  
+}
+
+.contact {
+  width: 100%;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+  background-image: url(../images/common-bg.jpg.svg);
+  background-size: contain;
+  background-color: blue;
+}
+
+.contact h2 {
+  font-size: 40px;
+}
+.contact p {
+  font-size: 20px;
+  color: darkgray;
+}
+.div_form {
+  text-align: center;
+  background-color: blue;
+  float: left;
+  display: block;
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/common-bg.jpg.svg);
+  padding-top: 5rem;
+
+}
+
+.div_form form {
+  height: 700px;
+  background-color: blueviolet;
+  width: 50%;
+  margin-left: 25rem;
+  border-radius: 5px;
+  padding-top: 55px;
+}
+
+.form-area{
+  background-color: white;
+}
+.label {
+  margin-right: 26rem;
+  padding: 26px 0px;
+  /* padding-top: 20px; */
+  color: white;
+  font-size: 20px;
+}
+.div_form input {
+  background-color: #c9c4c4;
+  height: 51px;
+  width: 63%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.div_form textarea{
+  background-color: #c9c4c4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  border: none;
+}
+.form-button{
+  padding: 40px 10px;
+}
+
+.form-button button{
+  padding: 13px 60px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+}
+::placeholder{
+  color:black;
+  font-weight: 600;
+  padding: 10px;
+}
